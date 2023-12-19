@@ -1,0 +1,127 @@
+h1 {
+    color: 	#866a56;
+    font-size: 250%;
+    text-align: center;
+    padding-left: 10px;
+}
+p {
+    padding-left: 10px;
+    color:	#af8c72
+}
+body {
+    background-color: #fbecdb
+}
+h3 {
+        color:	#938f43;
+        padding-left: 10px
+    }
+
+    .container {  
+        width: 80%;
+        margin: 0 auto;
+        padding: 20px;
+        padding-left: 30px;
+        background-color: #f3cbbd;
+        position: relative;
+        
+    } 
+
+    .container2 {  
+        width: 350px;
+        margin: 0 auto; /* Центрує елемент на сторінці */
+        padding: 20px;
+        padding-left: 30px;
+        background-color: #f3cbbd;
+        position: relative;
+        margin-bottom: 15px;
+        
+    } 
+   
+    #unique {
+        color: #90cdc3;
+        font-weight: bold;
+    }
+
+    .image {
+            position: relative;
+            width: 15%;
+            height: 15%;
+            float: left;
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+
+        .responsive-image {
+            display: block;
+            width: 20%;
+            height: 20%;
+            margin: 0 auto; 
+        }
+
+
+
+/* Завдання до варіанту 8 */
+        .navigation {
+            background-color:  #9e6e4e;
+            padding: 15px;      
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            width: 400px;
+        }      
+        li {
+            margin-bottom: 10px;
+        }       
+        a {
+            text-decoration: none;
+            color: white;
+            display: block;
+            padding: 10px;
+        }       
+        a:hover {
+            background-color:  #62432e;
+            color: white;
+        }       
+        a.active {
+            background-color: #e5c6b2;
+            color: black;
+            text-decoration: underline;
+        }
+
+
+
+
+
+        /* Завдання до варіанту 6 */
+        table {
+            border-spacing: 0;
+            background: rgb(255, 247, 204);
+            color: rgb(0, 0, 0);
+            text-align: center;
+        }
+        td {
+            border-bottom: 1px solid rgb(91, 31, 11);
+            padding: 3px;
+        }
+        tr  {
+            border-right: 1px solid rgb(91, 31, 11);
+        }
+        tr:first-child td {
+            background: rgb(91, 31, 11);
+            color: white;
+        }
+        td:nth-child(1) {
+            text-align: left;
+        }
+        tr:nth-child(3) td {
+            background:rgb(226, 212, 134);
+            border-bottom: 3px solid rgb(91, 31, 11);
+        }
+        td:first-child {
+            border-left: 1px solid rgb(91, 31, 11);
+        }
+        td:last-child {
+            border-right: 1px solid rgb(91, 31, 11);
+        }
